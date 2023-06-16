@@ -1,4 +1,4 @@
-import { OpenAI, OpenAIChat } from "langchain/llms/openai";
+import { OpenAIChat } from "langchain/llms/openai";
 import { loadSummarizationChain } from "langchain/chains";
 import { Document } from "langchain/document";
 import { transcriptionSegments } from "../data.js";
